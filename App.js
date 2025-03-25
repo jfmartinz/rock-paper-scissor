@@ -11,11 +11,11 @@ export default function App() {
   return (
     <GameProvider>
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="Rock-Paper-Scissors Game">
+        <Stack.Navigator initialRouteName="Home">
           <Stack.Screen
             name="Home"
             component={HomeScreen}
-            options={{ title: 'Rock-Paper-Scissors' }}
+            options={{ title: 'Home' }}
           />
           <Stack.Screen
             name="Result"
